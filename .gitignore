@@ -1,0 +1,42 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+out/
+build/
+
+# .NET Core
+
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# NuGet
+
+*.nupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET Core
+appsettings.Development.json
+
+# Docker
+docker-compose.override.yml
+
+# Environment files
+.env
+
+# OS files
+
+.DS_Store
+Thumbs.db
