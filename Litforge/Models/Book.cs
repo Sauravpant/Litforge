@@ -6,8 +6,8 @@
         public string Title { get; set; }
         public DateTime ReleaseDate { get; set; }
         public ICollection<Review> Reviews { get; set; }
-        public ICollection<Author> BookAuthors { get; set; }
-        public ICollection<Category> BookCategories { get; set; }
+        public ICollection<BookAuthor> BookAuthors { get; set; }
+        public ICollection<BookCategory> BookCategories { get; set; }
 
 
     }

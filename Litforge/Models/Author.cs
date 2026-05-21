@@ -6,7 +6,6 @@
         public string Name { get; set; }
         public string Bio { get; set; }
         public Country CountryInfo { get; set; }
-
         public ICollection<BookAuthor> BookAuthors { get; set; }
     }
 }
